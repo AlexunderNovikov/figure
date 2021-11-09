@@ -1,0 +1,101 @@
+
+
+.figure{
+    width: 500px;
+    height: 500px;
+    background-color: yellowgreen;
+    position: relative;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.square-in{
+    width:30%;
+    height: 30%;
+    background-color: yellow;
+    border-radius: 10%;
+    position: absolute;
+    z-index: 5;
+    top: 35%;
+    left:35%;
+}
+
+
+.square-out{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left:25%;
+    z-index: 4;
+    background-color: blue;
+}
+
+.square-out:hover{
+    background-color:slateblue;
+    z-index:5;
+}
+
+.circle-left-up{
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+    background-color: red;
+    position: absolute;
+    top: 10%;
+    left:10%;
+    z-index: 1;
+}
+
+.circle-left-up:hover{
+    background-color: black;
+    z-index:5;
+}
+
+.circle-left-down{
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+    background-color: red;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    z-index: 1;
+}
+
+.circle-left-down:hover{
+    background-color: grey;
+    z-index:5;
+}
+
+.circle-right-up{
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+    background-color: red;
+    position: absolute;
+    bottom: 60%;
+    right: 10%;
+    z-index: 1;
+}
+
+.circle-right-up:hover{
+    background-color:goldenrod;
+    z-index: 5;
+}
+
+.circle-right-down{
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+    background-color: red;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    z-index: 1;
+}
+
+.circle-right-down:hover{
+    background-color: rosybrown;
+    z-index: 5;
+}
